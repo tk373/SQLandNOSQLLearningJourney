@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+html{
+    background-image: url(pictures/Solid-Black-Website-Background.jpg);
+}
+body{
+    background-color: transparent;
+}
+.center{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+.panelgrid{
+    text-align: right;
+    border-color: aqua;
+    border-width: 3px;
+}
+.labelstyle{
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    color: #4af7ff;
+}
+.textinput{
+    background-color: grey;
+    outline-color: black;
+    outline-width: 3px;
+    color: #4af7ff;
+    font-size: 20px;
+}
+
+.button2{
+    text-align: center;
+    margin: auto;
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: #fde9ff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 10vw, 6rem);
+    line-height: 0.75em;
+    text-align: center;
+    text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+}
+.button-54 {
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #165bfb;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}

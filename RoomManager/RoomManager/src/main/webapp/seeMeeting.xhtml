@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: silva
+  Date: 21.02.2023
+  Time: 22:09
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Your Meeting</title>
+    <link rel="stylesheet" href="stylesheet.css"></link>
+</h:head>
+
+<h:body>
+    <h1>Dein Termin</h1>
+    <h:form>
+        <h:panelGrid class="panelgrid" border = "1" columns="2">
+            <h:outputLabel class="labelstyle" value="Datum: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.datum}">
+                <f:convertDateTime pattern = "dd.MM.yyyy" />
+            </h:outputLabel>
+            <h:outputLabel class="labelstyle" value="Von: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.von}"></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="Bis: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.bis}"></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="Zimmer: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.zimmer}"></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="Bemerkung: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.bemerkung}"></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="Teilnehmer: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.teilnehmer}"></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="PublicKey: "></h:outputLabel>
+            <h:outputLabel class="labelstyle" value="#{terminAnsehenBean.termin.publickey}"></h:outputLabel>
+        </h:panelGrid>
+        <div class="button2" >
+            <h1></h1>
+        <h:commandButton id="button1" class="button-54" value="-zurück zum Index-" action="/index.xhtml" immediate="true" />
+        </div>
+    </h:form>
+</h:body>
+
+</html>

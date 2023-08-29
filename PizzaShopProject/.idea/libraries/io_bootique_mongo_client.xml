@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="io.bootique.mongo.client" type="repository">
+    <properties maven-id="io.bootique.mongo:bootique-mongo-client:3.0.M1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bootique-mongo-client-3.0.M1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bootique-3.0.M1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bootique-di-3.0.M1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.13.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.13.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.13.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-dataformat-yaml-2.13.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jopt-simple-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mongodb-driver-sync-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bson-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mongodb-driver-core-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bson-record-codec-4.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

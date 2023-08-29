@@ -1,0 +1,191 @@
+db.createCollection("customers")
+
+// connect by .\mongosh
+// cd "\Program Files\MongoDB\mongosh-1.6.2-win32-x64\bin"
+
+db.customers.insertOne( 
+    {
+        nachname: "Clegane", 
+        vorname: "Ser Gregor"
+    } 
+)
+
+db.customers.insertMany( 
+[ 
+    {
+    nachname: "Stark", 
+    vorname: "Arya"
+    },
+    {
+    nachname: "Stark",
+    vorname: "Sansa"
+    } 
+]
+)
+
+db.pdoducts.find()
+
+db.customers.find()
+
+use ShopDB
+
+db.createCollection("products")
+
+db.products.insertMany(
+    [
+        {
+            brand: "apple",
+            name: "Iphone 12",
+            price: "800",
+            category: "Smartphone",
+            views: "1000000"
+        },
+        {
+            brand: "apple",
+            name: "Iphone X",
+            price: "500",
+            category: "Smartphone",
+            views: "500000"
+        },
+        {
+            brand: "huawei",
+            name: "P20 pro",
+            price: "300",
+            category: "Smartphone",
+            views: "700000"
+        }
+    ]
+)
+
+db.products.find()
+
+db.products.insertMany(
+    [
+        {
+            brand: "apple",
+            name: "Iphone 14 pro max",
+            price: "2500",
+            category: "Smartphone",
+            views: "1000000",
+            rating: [{username: "customer2", rating:"3"}]
+        },
+        {
+            brand: "apple",
+            name: "Iphone 13 pro",
+            price: "1500",
+            category: "Smartphone",
+            views: "500000",
+            rating: [{username: "customer1", rating:"4"},{username: "customer3", rating:"7"}]
+        }
+    ]
+)
+
+db.products.find({brand:"apple"})
+
+try{
+db.products.updateOne(
+    { "_id" : ObjectId("63ca67091fbe1aeda681d84b")},
+    { $set:  {"price" : "690"} }
+    );
+} catch (e){
+    print(e);
+}
+
+try{
+    db.products.updateMany(
+        { "brand" : "apple"},
+        { $set: {"price" : "790"}}
+    );
+} catch (e){
+    print(e);
+}
+
+try{
+    db.products.deleteOne(
+        { "_id" : ObjectId("63d10160233eabaaad9b6b48")}
+    );
+} catch (e){
+    print(e);
+}
+
+63ca67091fbe1aeda681d849
+
+
+try{
+    db.products.updateMany(
+        {},
+        { $set: { "VerfuegbarAb" : Date()}}
+    );
+} catch (e){    
+    print(e);
+}
+
+use PizzaShopD
+
+db.createCollection("Pizza")
+
+db.Pizza.insertOne(
+    {
+        name: "Margherita",
+        Zutaten: "Teig, Fleisch, Tomatensosse",
+        KCAL: "1500",
+        Durchmesser: "32",
+        Einzelpreis: "14",
+        Groesse: "Medium"
+    }
+)
+
+db.createUser({
+    user: "admin",
+    pwd:  "admin",
+    roles: [{ role: "dbAdmin", db: "ShopDb" }]
+  }
+)
+
+db.Pizza.insertOne(
+    {
+    name: "Margherita",
+    ingredients: "Tomatensosse, Mozzarella, Oregano",
+    sizes: [
+        { name: "small", diamater: 24, price: 14, kcal: 200},
+        { name: "medium", diamater: 30, price: 16, kcal: 400},
+        { name: "large", diamater: 40, price: 24, kcal: 800}
+    ]
+}
+)
+
+db.Pizza.insertOne(
+    {
+    name: "Salami",
+    ingredients: "Tomatensosse, Mozzarella, Oregano, Salami",
+    sizes: [
+        { name: "small", diamater: 24, price: 14, kcal: 200},
+        { name: "medium", diamater: 30, price: 16, kcal: 400},
+        { name: "large", diamater: 40, price: 24, kcal: 800}
+    ]
+}
+)
+
+db.Pizza.insertOne(
+    {
+    name: "proscuto",
+    ingredients: "Tomatensosse, Mozzarella, Oregano, Schinken",
+    sizes: [
+        { name: "small", diamater: 24, price: 14, kcal: 200},
+        { name: "medium", diamater: 30, price: 16, kcal: 400},
+        { name: "large", diamater: 40, price: 24, kcal: 800}
+           ]
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+

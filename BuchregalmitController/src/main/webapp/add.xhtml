@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- 
+/**
+ * Bildungszentrum Zürichsee BZZ
+ * Fachgruppe IT
+ * 
+ * M133: Webapplikationen realisieren
+ * Buchregal Version 3
+ *
+ * @author	Markus Meier, Marcel Suter
+ * @date	2016-03-04
+ * @version	1.1
+ */
+ -->
+<ui:composition template="template/layout.xhtml">
+	<ui:define name="title">
+      Buch erfassen
+  </ui:define>
+	<ui:define name="content">
+
+		<h:form>
+		    <h:messages errorStyle="color:red; display:block" />
+			<h:panelGrid id="add" columns="3" border="0">
+				<f:facet name="header">
+                  Buch erfassen
+      			</f:facet>
+				<h:outputLabel for="fieldTitel" value="Titel" />
+				<h:inputText id="fieldTitel" value="#{addBean.aktuell.titel}" />
+				<h:message errorStyle="color:red" for="fieldTitel" />
+
+				<h:outputLabel for="fieldAutor" value="Autor" />
+				<h:inputText id="fieldAutor" value="#{addBean.aktuell.autor}" />
+				<h:message errorStyle="color:red" for="fieldAutor" />
+
+				<h:outputLabel for="fieldPreis" value="Preis" />
+				<h:inputText id="fieldPreis" value="#{addBean.aktuell.preis}" />
+				<h:message errorStyle="color:red" for="fieldPreis" />
+
+				<h:outputLabel for="fieldISBN" value="ISBN" />
+				<h:inputText id="fieldISBN" value="#{addBean.aktuell.isbn}" />
+				<h:message errorStyle="color:red" for="fieldISBN" />
+
+				<f:facet name="footer">
+					<h:commandButton value="Speichern" action="#{addBean.addBuch()}" />
+					<h:button value="Abbruch" outcome="list" />
+				</f:facet>
+			</h:panelGrid>
+		</h:form>
+
+	</ui:define>
+</ui:composition>
+</html>

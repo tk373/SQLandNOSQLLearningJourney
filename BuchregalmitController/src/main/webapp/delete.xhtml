@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- 
+/**
+ * Bildungszentrum Zürichsee BZZ
+ * Fachgruppe IT
+ * 
+ * M133: Webapplikationen realisieren
+ * Buchregal Version 3
+ *
+ * @author	Markus Meier, Marcel Suter
+ * @date	2016-03-26
+ * @version	1.1
+ */
+ -->
+<ui:composition template="template/layout.xhtml">
+	<ui:define name="title">
+      Buch löschen
+  </ui:define>
+	<ui:define name="content">
+
+		<h:form>
+			<h:panelGrid id="add" columns="2" border="0">
+				<f:facet name="header">
+                  Buch löschen
+                </f:facet>
+		        <h:outputLabel for="fieldTitel" value="Titel" />
+				<h:inputText id="fieldTitel" value="#{deleteBean.aktuell.titel}"
+					readonly="true" />
+				<h:outputLabel for="fieldAutor" value="Autor" />
+				<h:inputText id="fieldAutor" value="#{deleteBean.aktuell.autor}"
+					readonly="true" />
+				<h:outputLabel for="fieldPreis" value="Preis" />
+				<h:inputText id="fieldPreis" value="#{deleteBean.aktuell.preis}"
+					readonly="true" />
+				<h:outputLabel for="fieldISBN" value="ISBN" />
+				<h:inputText id="fieldISBN" value="#{deleteBean.aktuell.isbn}"
+					readonly="true" />
+				<f:facet name="footer">
+					<h:commandButton value="Löschen" action="#{deleteBean.deleteBuch()}" />
+					<h:button value="Abbruch" outcome="list" />
+				</f:facet>
+			</h:panelGrid>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>

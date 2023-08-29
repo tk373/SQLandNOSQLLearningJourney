@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+   <title>Add Book</title>
+   <link rel="stylesheet" href="stylesheet.css"></link>
+</h:head>
+<h:body>
+   <h1>Reservation hinzufügen</h1>
+   <h:form>
+      <h:panelGrid columns="3">
+         <h:outputLabel class="labelstyle" for="datum" value="Datum: " />
+         <h:inputText class="textinput" id="datum" validatorMessage="TT.MM.JJJJ und nur Daten in der Zukunft sind zugelassen" value="#{terminListeBean.aktuell.datum}">
+            <f:validateRequired />
+            <f:convertDateTime pattern = "dd.MM.yyyy" />
+            <f:validator validatorId="futureDateValidator"></f:validator>
+         </h:inputText>
+         <h:message for="datum" style="color: red" ></h:message>
+         <h:outputLabel class="labelstyle" for="von" value="Von: " />
+         <h:inputText class="textinput" validatorMessage="HH:MM" id="von" value="#{terminListeBean.aktuell.von}">
+            <f:validateRequired />
+            <f:validateRegex pattern="\d{2}:\d{2}" />
+         </h:inputText>
+         <h:message for="von" style="color: red" ></h:message>
+
+         <h:outputLabel class="labelstyle" for="bis" value="Bis: " />
+         <h:inputText class="textinput" validatorMessage="HH:MM" id="bis" value="#{terminListeBean.aktuell.bis}">
+            <f:validateRequired />
+            <f:validateRegex pattern="\d{2}:\d{2}" />
+         </h:inputText>
+         <h:message for="bis" style="color: red" ></h:message>
+
+         <h:outputLabel class="labelstyle" for="zimmer" value="Zimmer: " />
+         <h:selectOneListbox id="zimmer" value = "#{terminListeBean.aktuell.zimmer}">
+            <f:selectItem itemValue = "101" itemLabel = "101" />
+            <f:selectItem itemValue = "102" itemLabel = "102" />
+            <f:selectItem itemValue = "103" itemLabel = "103" />
+            <f:selectItem itemValue = "104" itemLabel = "104" />
+            <f:selectItem itemValue = "105" itemLabel = "105" />
+         </h:selectOneListbox>
+         <h:message for="zimmer" style="color: red" ></h:message>
+
+         <h:outputLabel class="labelstyle" for="bemerkung" value="Bemerkung: " />
+         <h:inputText class="textinput" id="bemerkung" value="#{terminListeBean.aktuell.bemerkung}">
+            <f:validateRequired />
+         </h:inputText>
+         <h:message for="bemerkung" style="color: red" ></h:message>
+
+         <h:outputLabel class="labelstyle" for="teilnehmer" value="Alle Teilnehmer: " />
+         <h:inputText class="textinput" id="teilnehmer" value="#{terminListeBean.aktuell.teilnehmer}">
+            <f:validateRequired />
+         </h:inputText>
+         <h:message for="teilnehmer" style="color: red" ></h:message>
+
+         <h:commandButton class="button-54" value="Hinzufügen" action="#{terminListeBean.addTermin()}" />
+         <h:commandButton class="button-54" value="Index" action="/index.xhtml" immediate="true" />
+      </h:panelGrid>
+
+   </h:form>
+</h:body>
+
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: silva
+  Date: 08.02.2023
+  Time: 11:23
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>My Gourmet</title>
+</h:head>
+
+<h:body>
+    <h:form id="form">
+    <h:outputText value="My Gourmet"></h:outputText>
+    <h:outputText value="Edit Customer"></h:outputText>
+    <h:panelGrid id="grid" columns="2">
+        <h:outputLabel value="First name:" for="firstname"></h:outputLabel>
+        <h:inputText id="firstname" value="#{customer.vorname}"></h:inputText>
+        <h:outputLabel value="Last name:" for="lastname"></h:outputLabel>
+        <h:inputText id="lastname" value="#{customer.nachname}"></h:inputText>
+    </h:panelGrid>
+        <h:commandButton id="save" value="Save" action="/showCustomer.xhtml"/>
+    </h:form>
+
+</h:body>
+
+</html>

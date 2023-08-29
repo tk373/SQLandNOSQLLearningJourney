@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: silva
+  Date: 17.02.2023
+  Time: 10:46
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Edit Termin</title>
+    <link rel="stylesheet" href="stylesheet.css"></link>
+</h:head>
+
+<h:body onload="#{terminBearbeitenBean.findTermin()}">
+    <div id="maindiv" >
+    <h1>Termin bearbeiten</h1>
+    <h:form>
+        <h:panelGrid columns="3">
+            <h:outputLabel class="labelstyle" value="Datum: "></h:outputLabel>
+            <h:inputTextarea id="datum" class="textinput" value="#{terminBearbeitenBean.termin.datum}">
+                <f:convertDateTime pattern = "dd.MM.yyyy" />
+                <f:validator validatorId="futureDateValidator"></f:validator>
+            </h:inputTextarea>
+            <h:message for="datum" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="Von: "></h:outputLabel>
+            <h:inputTextarea id="von" class="textinput" value="#{terminBearbeitenBean.termin.von}">
+                <f:validateRequired />
+                <f:validateRegex pattern="\d{2}:\d{2}" />
+            </h:inputTextarea>
+            <h:message for="von" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="Bis: "></h:outputLabel>
+            <h:inputTextarea id="bis" class="textinput" value="#{terminBearbeitenBean.termin.bis}">
+                <f:validateRequired />
+                <f:validateRegex pattern="\d{2}:\d{2}" />
+            </h:inputTextarea>
+            <h:message for="bis" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="Zimmer: "></h:outputLabel>
+            <h:selectOneListbox id="zimmer" value = "#{terminBearbeitenBean.termin.zimmer}">
+                <f:selectItem itemValue = "101" itemLabel = "101" />
+                <f:selectItem itemValue = "102" itemLabel = "102" />
+                <f:selectItem itemValue = "103" itemLabel = "103" />
+                <f:selectItem itemValue = "104" itemLabel = "104" />
+                <f:selectItem itemValue = "105" itemLabel = "105" />
+            </h:selectOneListbox>
+            <h:message for="zimmer" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="Bemerkung"></h:outputLabel>
+            <h:inputTextarea id="bemerkung" class="textinput" value="#{terminBearbeitenBean.termin.bemerkung}">
+                <f:validateRequired />
+            </h:inputTextarea>
+            <h:message for="bemerkung" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="Teilnehmer"></h:outputLabel>
+            <h:inputTextarea id="teilnehmer" class="textinput" value="#{terminBearbeitenBean.termin.teilnehmer}">
+                <f:validateRequired />
+            </h:inputTextarea>
+            <h:message for="teilnehmer" style="color: red" ></h:message>
+            <h:outputLabel class="labelstyle" value="PrivateKey"></h:outputLabel>
+            <h:inputTextarea id="privKey" class="textinput" disabled="true" value="#{terminBearbeitenBean.termin.privatekey} (generiert und schreibgeschützt)"></h:inputTextarea>
+            <h:message for="privKey"></h:message>
+            <h:outputLabel class="labelstyle" value="PublicKey"></h:outputLabel>
+            <h:inputTextarea id="pubKey" class="textinput" disabled="true" value="#{terminBearbeitenBean.termin.publickey} (generiert und schreibgeschützt)"></h:inputTextarea>
+            <h:message for="pubKey"></h:message>
+            <h:commandButton class="button-54" value="Änderungen speichern" action="#{terminBearbeitenBean.addEdditmeeting()}" ></h:commandButton>
+            <h:commandButton class="button-54" value="Index" action="/index.xhtml" immediate="true" />
+        </h:panelGrid>
+    </h:form>
+    </div>
+</h:body>
+
+</html>

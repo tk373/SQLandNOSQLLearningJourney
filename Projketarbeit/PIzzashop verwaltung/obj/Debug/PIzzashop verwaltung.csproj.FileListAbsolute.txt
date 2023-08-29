@@ -1,0 +1,60 @@
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\PIzzashop verwaltung.exe.config
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\PIzzashop verwaltung.exe
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\PIzzashop verwaltung.pdb
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\obj\Debug\PIzzashop verwaltung.csproj.AssemblyReference.cache
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\obj\Debug\PIzzashop verwaltung.csproj.CoreCompileInputs.cache
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\obj\Debug\PIzzashop verwaltung.exe
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\obj\Debug\PIzzashop verwaltung.pdb
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Crc32C.NET.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\DnsClient.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Bson.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Driver.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\SharpCompress.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Snappy.NET.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Buffers.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Crc32C.NET.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\DnsClient.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Bson.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Driver.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Snappy.NET.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Buffers.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\obj\Debug\PIzzashop verwaltung.csproj.CopyComplete
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\mongocrypt.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Snappier.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Memory.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Security.AccessControl.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\ZstdSharp.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Snappier.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Memory.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Security.AccessControl.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Newtonsoft.Json.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Json.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.ValueTuple.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Newtonsoft.Json.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.Text.Json.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\System.ValueTuple.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Castle.Core.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\NSubstitute.dll
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\Castle.Core.xml
+C:\Users\silva\OneDrive\Desktop\SQL and NoSQL\Projketarbeit\PIzzashop verwaltung\bin\Debug\NSubstitute.xml
